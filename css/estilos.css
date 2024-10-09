@@ -1,0 +1,175 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.contenido{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Krub", sans-serif;
+}
+
+
+.sombra {
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h1 span{
+    font-size: 1.5rem;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-principal{
+    display: flex;
+    flex-direction: row;
+    background-color: #0097A7;
+    justify-content: space-around;
+}
+
+.nav-principal a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+.nav-principal a:hover{
+    background-color: #FFC107;
+    color: black;
+}
+
+.utilidad{
+    background-color: #0097A7;
+}
+
+.hero-nav{
+    background-image: url(/img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 45rem;
+    color: white;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.hero-nav-contenido{
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-nav-titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0rem 0rem;
+}
+.hero-nav-Logo-text{
+    display: flex;
+    margin: 0;
+    align-items: end;
+}
+
+.hero-nav-Logo-text p{
+    font-size: 1.5rem;
+}
+
+.hero-nav-btn{
+    background-color: #0097A7;
+    padding: 1rem 3rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+
+}
+
+.hero-nav-btn {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    border: none;
+}
+
+.hero-nav-btn:hover{
+    cursor: pointer;
+}
+
+h1,h3,h2{
+    text-align: center;
+}
+
+
+.misServicios{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mis-servicios{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicios-iconos{
+    display: flex;
+    background-color: #FFC107;
+    height: 10rem;
+    width: 10rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.iconosDobles{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.servicios-contenido{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
